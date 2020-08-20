@@ -105,7 +105,7 @@ p {
 
 .mobile {
     position: relative;
-    min-width: 300px;
+    min-width: 275px;
     border: 10px solid #fff;
     border-radius: 35px;
     overflow: hidden;
@@ -202,7 +202,7 @@ p {
 }
 
 .messages-user .message {
-    padding: 7.5px 10px;
+    padding: 4px 10px;
     max-width: 135px;
 }
 
@@ -211,7 +211,7 @@ p {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px 10px 10px;
-    max-width: 215px;
+    max-width: 180px;
     color: #fff;
     background: #e942ff;
     background: linear-gradient(90deg,rgba(233,66,255,1) 0%,rgba(136,56,255,1) 100%);
@@ -224,7 +224,7 @@ p {
 .message-user-pictures img {
     width: 40px;
     height: 40px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .messages-left .message {
@@ -237,9 +237,9 @@ p {
 }
 
 .messages-right .message-user {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
     border-bottom-right-radius: 5px;
 }
 
@@ -284,21 +284,21 @@ p {
 .input-message {
     position: relative;
     margin: 10px 0;
-    padding: 15px 25px;
+    padding: 13px 25px;
     border-radius: 50px;
     background-color: #fff;
     color: var(--grayish-blue);
 }
 
 .btn-input-message {
-    display: flex;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 50%;
     right: 0;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50px;
     font-size: 1.25em;
     color: #fff;
