@@ -91,6 +91,11 @@ p {
     padding-left: 25px;
 }
 
+.col-mobile{
+    display: flex;
+    justify-content: center;
+}
+
 .content-text h1 {
     margin-bottom: 25px;
     font-size: 2.5em;
@@ -189,7 +194,7 @@ p {
 }
 
 .message-user {
-    margin: 5px 0;
+    margin: 2.5px 0;
 }
 
 .message-user p {
@@ -304,23 +309,23 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    width: 700px;
+    width: 500px;
     height: 90vh;
     border-bottom-left-radius: 999px;
     border-bottom-right-radius: 999px;
     background: #e942ff;
     background: linear-gradient(200deg,rgba(233,66,255,1) 0%,rgba(136,56,255,1) 100%);
-    transform: translateX(-57.5%);
+    transform: translateX(-25%);
 }
 
 .background-grey {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 700px;
+    width: 500px;
     height: 90vh;
     border-top-left-radius: 999px;
     border-top-right-radius: 999px;
     background-color: #f7f5fa;
-    transform: translateX(65%);
+    transform: translateX(25%);
 }
