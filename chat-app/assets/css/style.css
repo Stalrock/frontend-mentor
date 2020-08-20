@@ -190,7 +190,7 @@ p {
 .messages-user {
     display: flex;
     flex-direction: column;
-    padding: 5px 0;
+    padding: 1px 0;
 }
 
 .message-user {
