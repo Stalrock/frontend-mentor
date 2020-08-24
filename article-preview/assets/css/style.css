@@ -38,6 +38,7 @@ li {
 a {
     display: block;
     text-decoration: none;
+    color: #fff;
 }
 
 h1,
@@ -68,6 +69,15 @@ h1{
     color: var(--very-dark-grayish-blue);
 }
 
+.active .share-element{
+    display: block !important;
+}
+
+.active #btn-share{
+    background-color: var(--desaturated-dark-blue);
+    color: #fff;
+}
+
 .page .article-container{
     height: 100vh;
     display: flex;
@@ -81,6 +91,8 @@ h1{
     background-image: url('../img/drawers.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .article{
@@ -88,7 +100,6 @@ h1{
     max-width: 735px;
     border-radius: 10px;
     background-color: #fff;
-    overflow: hidden;
 }
 
 .content-article{
@@ -129,7 +140,7 @@ h1{
     font-weight: 700;
 }
 
-.article-share{
+#btn-share{
     height: 35px;
     width: 35px;
     background-color: var(--light-grayish-blue);
@@ -143,4 +154,53 @@ h1{
 
 .date{
     color: var(--grayish-blue);
+}
+
+.article-share{
+    position: relative;
+}
+
+.article-share .share-element{
+    display: none;
+    background-color: var(--very-dark-grayish-blue);
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+
+.share-element::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #48556a transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content-share{
+    display: flex;
+    padding: 10px 25px;
+    align-items: center;
+}
+
+.share-title{
+    margin: 0 7.5px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.8em;
+    color: var(--grayish-blue);
+}
+
+.socials{
+    font-size: 1.4em;
+    display: flex;
+}
+
+.socials li{
+    margin: 0 7.5px;
 }
