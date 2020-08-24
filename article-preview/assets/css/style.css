@@ -85,21 +85,21 @@ h1{
 
 .article{
     display: flex;
-    max-width: 750px;
+    max-width: 745px;
     border-radius: 10px;
     background-color: #fff;
     overflow: hidden;
 }
 
 .content-article{
-    padding: 35px;
+    padding: 35px 30px 30px 35px;
     display: flex;
     flex-direction: column;
     width: 60%;
 }
 
 .content-article h1{
-    font-size: 1.5em;
+    font-size: 1.475em;
 }
 
 .avatar{
