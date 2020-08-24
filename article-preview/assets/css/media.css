@@ -1,0 +1,32 @@
+@media screen and (max-width: 800px){
+    .article{
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+    .img-article{
+        height: 230px;
+        width: 100%;
+    }
+
+    .content-article{
+        width: 100%;
+    }
+
+    .page .article-container{
+        height: 100%;
+        padding: 75px 25px;
+    }
+
+    .user-share{
+        margin-top: 15px;
+    }
+
+    .content-article{
+        padding: 34px 34px 20px 34px
+    }
+
+    .content-article h1{
+        font-size: 1.25em;
+    }
+}
