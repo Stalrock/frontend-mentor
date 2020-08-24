@@ -85,7 +85,7 @@ h1{
 
 .article{
     display: flex;
-    max-width: 745px;
+    max-width: 735px;
     border-radius: 10px;
     background-color: #fff;
     overflow: hidden;
