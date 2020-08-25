@@ -1,0 +1,283 @@
+:root {
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--very-light-gray);
+    color: var(--grayish-blue);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    color: var(--dark-blue);
+}
+
+p {
+    margin: 25px 0;
+    line-height: 1.5em;
+}
+
+img{
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+h2{
+    font-size: 2.1em;
+    letter-spacing: -1px;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.title-content{
+    max-width: 650px;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 1140px;
+    height: 100%;
+}
+
+.padtb-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.btn{
+    color: var(--white);
+    padding: 15px 35px;
+    background: rgb(49,211,92);
+    background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    font-size: 0.9em;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.page{
+    overflow: hidden;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+/*Navabr*/
+.navbar{
+    height: 80px;
+    background-color: var(--white);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-content{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.menu li{
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 0 15px;
+    font-weight: 400;
+}
+
+.menu a{
+    color: var(--grayish-blue);
+}
+
+/*Banner*/
+.banner{
+    padding: 250px 0 170px 0;
+    position: relative;
+}
+
+.banner-content{
+    max-width: 450px;
+}
+
+.banner-content .btn{
+    margin-top: 15px;
+}
+
+.banner-mockup{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(17.5%, -4.5%);
+}
+
+.banner-bg{
+    position: absolute;
+    top: -180px;
+    right: -450px;
+    z-index: -99;
+}
+
+/*Choose Easybank*/
+.choose-easybank{
+    background-color: var(--light-grayish-blue);
+    z-index: 1;
+}
+
+.choose-reasons, .articles{
+    display: flex;
+    margin: 75px -15px 0 -15px;
+    flex-wrap: wrap;
+}
+
+.reason, .container-article{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.reason img{
+    margin-bottom: 40px;
+}
+
+.reason p{
+    font-size: 0.86em;
+}
+
+/*Articles*/
+.articles{
+    margin-top: 50px;
+}
+
+.article{
+    background-color: var(--white);
+}
+
+.content-article{
+    padding: 25px;
+}
+
+.author-article{
+    font-size: 0.5em;
+}
+
+.content-article h4{
+    margin: 10px 0;
+}
+
+.content-article p{
+    margin: 0;
+    font-size: 0.69em;
+}
+
+/*Footer*/
+footer{
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 50px 0;
+    font-size: 0.8em;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right, .socials-links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-right{
+    align-items: flex-end;
+}
+
+.socials li{
+    margin-right: 10px;
+}
+
+.menu-footer{
+    margin-left: 115px;
+    display: flex;
+}
+
+.menu-footer li{
+    padding: 7.5px 0;
+    font-weight: 300;
+}
+
+.menu-footer-left{
+    margin-right: 125px;
+}
+
+.footer-left{
+    display: flex;
+}
+
+.copyright{
+    color: var(--grayish-blue);
+}
+
+.footer-content a{
+    color: var(--white);
+}
+
+.socials{
+    display: flex;
+}

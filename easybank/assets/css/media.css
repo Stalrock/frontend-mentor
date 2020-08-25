@@ -1,0 +1,11 @@
+@media screen and (max-width: 850px){
+    .reason, .container-article{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .reason, .container-article{
+        width: 100% !important;
+    }
+}
